@@ -1,0 +1,265 @@
+/*******************
+GENERAL
+**************************/
+
+body{
+font-family: 'Shadows Into Light', 'Courgette';
+}
+
+
+#wrapper {
+  max-width: 948px;
+  margin: 0 auto;
+  padding:0 5%
+}
+
+a {
+  text-decoration:none;
+}
+
+img{
+max-width:100%}
+
+h3 {
+margin: 0 0 1em 0;
+}
+
+
+
+/*******************
+Heading
+**************************/
+header {
+
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0 ;
+  width: 100%;
+background: linear-gradient(#58ACFA, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+			  #ffa949 url('') no-repeat
+			  center; background-size: cover;
+}
+
+#logo {
+text-align:center;
+margin: 0;
+}
+
+h1 {
+font-family:'Shadows Into Light', print;
+margin: 15px 0;
+  font-size: 1.5em;
+  font-weight:normal;
+  line-height:0.8em;
+  
+}
+
+h2{
+font-size: 1 em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/*******************
+NAVIGATION
+**************************/
+
+nav{
+text-align: center;
+  padding:10px 0;
+  margin:20px 0 0;
+}
+
+nav a{
+font-weight: 880;
+font-size: 2em;
+ padding: 15px 10px; 
+}
+
+nav ul{
+list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+
+nav li {
+display: inline-block;
+}
+
+
+/*******************
+Footer
+**************************/
+
+
+footer{
+font-size: 0.75en;
+ text-align:center;
+padding-top:50px;
+  color:#ccc
+}
+.social-icon{
+width: 20px;
+height: 20px;
+margin:0 5px;  
+}
+
+
+
+/*******************
+page portfolio
+**************************/
+  
+  #gallery {
+    margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  #gallery li {
+  float:left;
+    width: 45%;
+    margin: 2.5%;
+      background color: #f5f5f5;
+    color: #595956;
+     }
+
+
+#gallery li a p { margin: 0;
+  padding: 5%;
+    font-size: 1.5em;
+  color: #595956;
+
+}
+
+
+
+/*******************
+page; ABout
+**************************/
+
+.profile-photo{
+
+display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 45% ;
+}
+
+
+
+/*******************
+page: Contact
+**************************/
+
+.contact-info {
+list-style: none;
+  padding: 0;
+  margin: 0;
+font-size: 0.9em;
+}
+
+.phone{
+list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.mail{list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.twitter{
+list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;}
+
+.contact-info a {
+display:block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+
+
+.contact-info li.phone a {
+  background-image: url('../img./phone.png');
+}
+
+
+.contact-info li.mail a {
+  background-image: url('../img./mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img./twitter.png');
+}
+
+
+
+/*******************
+Colors
+**************************/
+
+
+/*site body*/
+body{
+
+background-color:#D0A9F5;
+color: #ECCEF5
+}
+
+/*purple header*/
+header{
+background:#BE81F7;
+
+  border-color: #D0A9F5;
+}
+
+/*nav background on mobile*/
+nav {
+background: #c959d8;
+}
+
+/*logo text*/
+h1, h2 {
+color: #fff;
+}
+
+
+/*links*/
+a {
+
+color:#fff;}
+
+
+/*nav links*/
+nav a, nav a:visited {
+color: #ccc;
+}
+
+/*selected nav link*/
+nav a.selected, nav a:hover {
+color: #fff;
+}
+
+h3 { margin: 0 0 2em 0;
+  text-align:center;
+ color:#fff;
+}
+ p {  color:#595956;
+text-align:center;
+font-size: 1.5em;
+}
+
+<link href='httpfonts.googleapis.comcssfamily=Kaushan+ScriptGloria+HallelujahDancing+ScriptPacificoCourgetteShadows+Into+Light' rel='stylesheet' type='textcss'>
+
+

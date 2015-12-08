@@ -1,0 +1,274 @@
+/* WEB FONTS --------------------- */
+
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url('../fonts/abolition-regular-webfont.eot');/*embedded open type*/
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),/*web open font*/
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');/*tru type format*/
+}
+
+/* Base Styles -------------------- */
+
+/* Base Styles -------------------- */
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+font-family: 'Abolition Regular', Helvetica Neue, sans-serif;
+}
+
+h1 {  
+  font-size: 5.625rem; /* 90px/16px  */
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 12px
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
+}
+
+h2 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+}
+
+h3 {
+  font-size: 3em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+h4 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+img{
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+img: hover {
+  top animation: black
+}
+ul, ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left:0;
+}
+
+li {
+ margin-bottom: 10px;
+}
+
+#link{
+	color: black;
+}
+#link:hover{
+	color: blue;
+}
+
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: #D7A9F9;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: rgba(255, 169, 73, .4);
+}
+
+a:active {
+  color: lightcoral;
+}
+
+img:hover {
+  background-color: lavender;
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+  padding-top: 170px;
+  height: 850px;
+    
+  background: linear-gradient(#58ACFA, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+			  #ffa949 url('img/map-rio.jpg') no-repeat
+			  center; background-size: cover;
+}
+
+.title {
+  color: black;
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;  
+}
+
+.primary-content, .second-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.primary-content {
+	padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #58ACFA;
+}
+
+.t-border {
+  border-top: 2px solid #dfe2e6;
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content,.secondary-content
+ {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+.wildlife {
+  color: white;
+  background-color: #434a52;
+  padding: 18% 24%;
+  margin: 105px 0 60px;
+  background: #434a52 url('img/BrazilFlag1920x1080.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: 0px 15px 20px -12px rgba( 0,0,0, .8);
+  border-radius: 10px;
+}
+
+.arrow {
+  width: 50px;
+  margin-top: 150px;
+}
+
+/* Floated Columns ------------------ */
+.visit, .tips {
+  width: 46.5%;
+}
+
+.visit {
+  float: left;
+}
+
+.tips {
+  float: right;
+}
+
+/* Floated Clearfix------------------ */
+
+.group:after {
+  content:"";
+  display: table;
+  clear: both; 
+}
+
+/* MEDIA QUERIES------------------ */
+
+
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
